@@ -63,7 +63,7 @@ export default function FoundItems() {
   useEffect(() => {
     
     Axios({
-      url: "http://https://campuscatch.onrender.com/items",
+      url: "https://campuscatch.onrender.com/items",
       method: "GET",
     })
       .then((response) => {      
@@ -248,7 +248,7 @@ export default function FoundItems() {
             color="white"
             fontWeight="bold"
           >
-            Here you can find the Lost Items
+            Here you can find the items that were found on campus.
           </Typography>
         </>
       </Stack>
