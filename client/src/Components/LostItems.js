@@ -63,7 +63,7 @@ export default function LostItems() {
   useEffect(() => {
     
     Axios({
-      url: "http://https://campuscatch.onrender.com/items",
+      url: "//https://campuscatch.onrender.com/items",
       method: "GET",
     })
       .then((response) => {      
