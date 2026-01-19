@@ -140,7 +140,7 @@ const LostItem = () => {
     Promise.all(promises)
       .then((urls) => {
         const newItem = { ...values, img: urls };
-            axios.post('http://https://campuscatch.onrender.com/Items/newItem', newItem, config)
+            axios.post('https://campuscatch.onrender.com/Items/newItem', newItem, config)
             .then(() => {
             toast.success('Wohoo 🤩! Item listed successfully.', {
               position: "bottom-right",
