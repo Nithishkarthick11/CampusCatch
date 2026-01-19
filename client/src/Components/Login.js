@@ -28,7 +28,7 @@ function Login() {
       password: values.password,
     };
     axios({
-      url: "http://https://campuscatch.onrender.com/users/login",
+      url: "https://campuscatch.onrender.com/users/login",
       method: "POST",
       data: payload,
 
