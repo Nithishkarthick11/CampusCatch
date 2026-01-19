@@ -52,7 +52,7 @@ function Signup() {
               // on complete
               getDownloadURL(uploadTask.snapshot.ref).then(async (imgUrl) => {
                 const payload = { nickname, fullname, email, password, img: imgUrl };
-                await axios.post("http://localhost:4000/users/create", payload)
+                await axios.post("http://https://campuscatch.onrender.com/users/create", payload)
                   .then((response) => {
                     setInfo(response.data);
                     if (response.data === "Done") {
@@ -88,7 +88,7 @@ function Signup() {
         } else {
           // No image was selected
           const payload = { nickname, fullname, email, password };
-          await axios.post("http://localhost:4000/users/create", payload)
+          await axios.post("http://https://campuscatch.onrender.com/users/create", payload)
             .then((response) => {
               setInfo(response.data);
               if (response.data === "Done") {
