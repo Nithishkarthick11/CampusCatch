@@ -52,7 +52,7 @@ function ItemPage() {
   
   useEffect(() => {
     axios({
-      url: `http://https://campuscatch.onrender.com/items/${item_id}`,
+      url: `https://campuscatch.onrender.com/items/${item_id}`,
       method: "GET",
     })
       .then((response) => {
@@ -326,7 +326,7 @@ function ItemPage() {
   const delete_item = () => {
     console.log("deleted");
     axios({
-      url: `http://https://campuscatch.onrender.com/items/delete/${item_id}`,
+      url: `https://campuscatch.onrender.com/items/delete/${item_id}`,
       method: "DELETE",
     })
       .then((response) => {
