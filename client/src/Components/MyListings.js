@@ -63,7 +63,7 @@ export default function Feed() {
   useEffect(() => {
     // console.log("Test");
     Axios({
-      url: "http://https://campuscatch.onrender.com/items",
+      url: "https://campuscatch.onrender.com/items",
       method: "GET",
     })
       .then((response) => {
