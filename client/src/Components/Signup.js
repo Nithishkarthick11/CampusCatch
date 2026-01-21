@@ -68,7 +68,7 @@ function Signup() {
                       window.location.href="/log-in";
                     }
                     else {
-                      toast.error('Something is missing!', {
+                      toast.error('Invalid email or password!', {
                         position: "bottom-right",
                         autoClose: 1000,
                         hideProgressBar: false,
