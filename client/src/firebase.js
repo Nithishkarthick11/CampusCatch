@@ -7,13 +7,13 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC9u_p0IUcu3YBgfV1MkmFm3pBz8sNNp9Q",
-  authDomain: "lostfoundmk03.firebaseapp.com",
-  projectId: "lostfoundmk03",
-  storageBucket: "lostfoundmk03.appspot.com",
-  messagingSenderId: "318202955318",
-  appId: "1:318202955318:web:cf9694553f729965727a97"
-};
+  apiKey: "AIzaSyCybLViUB_fGsgMQqoYYp2Js60EF5CS-CM",
+  authDomain: "campuscatch-d5232.firebaseapp.com",
+  projectId: "campuscatch-d5232",
+  storageBucket: "campuscatch-d5232.firebasestorage.app",
+  messagingSenderId: "142210430980",
+  appId: "1:142210430980:web:630ea3a4fe2b9676ba1d51",
+  measurementId: "G-Y6NX4B89WZ"
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
