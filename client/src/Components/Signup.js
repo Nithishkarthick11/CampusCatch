@@ -68,7 +68,7 @@ function Signup() {
                       window.location.href="/log-in";
                     }
                     else {
-                      toast.error('Invalid email or password!', {
+                      toast.error('Email already exists or invalid details !', {
                         position: "bottom-right",
                         autoClose: 1000,
                         hideProgressBar: false,
@@ -104,7 +104,7 @@ function Signup() {
                 window.location.href="/log-in";
               }
               else {
-                toast.error('Something is missing!', {
+                toast.error('Email already exists or invalid details !', {
                   position: "bottom-right",
                   autoClose: 1000,
                   hideProgressBar: false,
