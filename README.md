@@ -34,6 +34,3 @@ The server provides the following API endpoints:
     *   `PUT /api/items/:id`: Updates an existing item (requires authentication).
     *   `DELETE /api/items/:id`: Deletes an item (requires authentication).
 
-## License Information
-
-This project has no specified license. All rights are reserved.
