@@ -4,7 +4,7 @@ Users can create an account and log in securely to post details about items they
 CampusCatch provides a centralized platform within the campus environment, reducing the dependency on informal communication methods like group chats and improving the efficiency of finding lost belongings.
 
 🌐 Live Demo:
-https://campus-catch-ha5p.vercel.app/
+https://campus-catch-qxzh.vercel.app/
 
 ## Key Features & Benefits
 
